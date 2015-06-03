@@ -1,0 +1,52 @@
+html {
+	height: 100%;
+	}
+body {
+	background:radial-gradient(circle at top right, #124dee 1% ,#ee6b12);
+	margin:0;
+	padding:0;
+	}
+#header {
+	padding:0px;
+	top:0px;
+	left:0px;
+	right:0px;
+	background:#303338;
+	width:100%;
+	margin:auto;
+	height:115px;
+	z-index:1;
+	overflow:hidden;
+	}
+#toplogo {
+	background:linear-gradient(#b6b2b2, #e2edff);
+	width:100%;
+	height:80px;
+	border:1px solid black;
+	z-index:10;
+	}
+#toplogo img {
+	height:80px;
+	margin-left:-4px;
+	}
+#navbar {
+	position:fixed;
+	height:34px;
+	/*figure out how to fill the remaining space with height. position absolute and set to bottom of div*/
+	width:100%;
+	}
+#navbar a {
+	text-decoration:none;
+	color:white;
+	}
+#navbar ul {
+	height:auto;
+	}
+#navbar li {
+	display:inline;
+	color:white;
+	padding: 20px;
+	}
+
+
+	
