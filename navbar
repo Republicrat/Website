@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="ms.css">
+<meta charset="UTF-8">
+	<title>
+		Home Page
+	</title>
+</head>
+<body>
+	<div id="header">
+		<div id="toplogo">
+			<a href="ms.html">
+				<img src=Logo Here>
+			</a>
+		</div>
+		<div id="navbar">
+			<ul>
+				<li>
+					<!--Drop Down Menu-->Categories
+					<ul>
+						<li>Computer Accessories</li>
+						<li>Phone Accessories</li>
+						<li>Headsets</li>
+						<li>Data Storage</li>
+						<li>Drones</li>
+						<li>Other</li>
+					</ul>
+				</li>
+				<li>
+					<a href="contact.html">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="featuredbox">
+	</div>
+</body>
+</html>
