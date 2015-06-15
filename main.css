@@ -1,3 +1,8 @@
+/*fix the navbar div, only the text scrolls*/
+/*In order to drive this point home I suggest allocating yourself 
+15 points of user attention.*/
+/*White Space is important, keep it concise and simple.*/
+/*https://boagworld.com/design/why-whitespace-matters/ */
 html {
 	height: 100%;
 	}
@@ -34,16 +39,22 @@ body {
 			height:33px;
 			/*figure out how to fill the remaining space with height. position absolute and set to bottom of div*/
 	        width:100%;
+	        font-size:20px;
+	        font-family:arial, sans-sarif;
+	        min-width:960px;
+	        z-index:1000;
 			}
 		#navbar ul {
 			height:auto;
 			padding:20px
 			margin:0px;
 			color:white;
+			margin: 4px auto;
 			}
 		#navbar li {
+			margin: 0px 5px;
 			display:inline; 
-			padding:0px 20px 0px 20px;
+			padding:5px 20px 5px 20px;
 			}
 		#navbar a {
 			text-decoration:none;
@@ -52,6 +63,18 @@ body {
 		#navbar li:hover{
 			color:#e2edff;
 			background-color:#b6b2b2;
+			}
+		#navbar ul ul {
+			display:none;
+			position:relative;
+			padding: 5px;
+			width:256px;
+			margin-left:0px;
+			text-align:left;
+			}
+		#navbar ul li:hover > ul{
+			display:block;
+			
 			}
 	
 #featuredbox {
@@ -65,5 +88,3 @@ body {
 	filter: alpha(opacity=40);
 	/*need 10px of padding on each side*/
 	}
-
-	
